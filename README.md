@@ -31,7 +31,7 @@ Best practice is to fork this repository to your GitHub account. This way, you c
 
 **Prepare Your Sprites**
 
-- Check out the sprites 🖼️ in `./src/assets` (like `pizzaMampf.png`) and swap them with your own custom artwork to personalize your app.
+- Check out the sprites 🖼️ in `./PxlApps/assets` (like `pizzaMampf.png`) and swap them with your own custom artwork to personalize your app.
 
 ---
 
@@ -54,7 +54,7 @@ Explore the demo apps and tutorials in the `./PxlApps` directory.
 **Steps to Run an App:**
 
 1.	Ensure the simulator is running (see above).
-2.	Open an app file (e.g., ./PxlApps/RoundClock.fsx) in VSCode.
+2.	Open an app file (e.g. `./PxlApps/RoundClock.fsx`) in VSCode.
 3.	Select the entire content of the file and run it by pressing `Alt+Enter` (Windows/Linux) or `Cmd+Enter` (macOS).
 
 --- 
