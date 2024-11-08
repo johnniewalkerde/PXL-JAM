@@ -25,6 +25,10 @@ Before you begin, make sure you have the following set up:
 - [**Visual Studio Code (VSCode)**](https://code.visualstudio.com/)
 - [**Ionide-fsharp Extension for VSCode**](https://marketplace.visualstudio.com/items?itemName=Ionide.Ionide-fsharp)
 
+**Fork the Repository**
+
+Best practice is to fork this repository to your GitHub account. This way, you can experiment with the code and save your changes, and maybe there will be some surprises along the way. 🎁
+
 🖼️ **Prepare Your Sprites**
 
 - Check out the sprites in `./src/assets` (like `pizzaMampf.png`) and swap them with your own custom artwork to personalize your app.
