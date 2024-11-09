@@ -1,16 +1,19 @@
-#load "./Helper/PxlLocalDevShadow.fsx"
+#load "../../.deps/PxlLocalDevShadow.fsx"
 open PxlLocalDevShadow
 
 open System
 open Pxl
 open Pxl.Draw
-open Pxl.Draw.Fsi
 
-let createCanvas () = CanvasProxy.create CanvasProxy.Channel.Tcp "localhost"
 
 
 // -------------------------------------------------------------
 
+// *****
+// PLEASE FOLLOW THE INSTRUCTIONS FOR SPRITES IN THE README
+// *****
+
+// -------------------------------------------------------------
 
 
 let pizzaSpriteMap =
@@ -49,7 +52,7 @@ let finalScene =
     }
 
 
-finalScene |> Eval.start createCanvas
+finalScene |> Simulator.start
 
 
 (*

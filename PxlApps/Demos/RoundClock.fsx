@@ -1,12 +1,10 @@
-#load "./Helper/PxlLocalDevShadow.fsx"
+#load "../../.deps/PxlLocalDevShadow.fsx"
 open PxlLocalDevShadow
 
 open System
 open Pxl
 open Pxl.Draw
-open Pxl.Draw.Fsi
 
-let createCanvas () = CanvasProxy.create CanvasProxy.Channel.Tcp "localhost"
 
 
 // -------------------------------------------------------------
@@ -56,7 +54,7 @@ let finalScene isSmooth =
     }
 
 
-finalScene true |> Eval.start createCanvas
+finalScene true |> Simulator.start
 
 (*
 Eval.stop ()

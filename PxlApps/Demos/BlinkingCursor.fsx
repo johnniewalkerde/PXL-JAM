@@ -1,15 +1,14 @@
-#load "./Helper/PxlLocalDevShadow.fsx"
+#load "../../.deps/PxlLocalDevShadow.fsx"
 open PxlLocalDevShadow
 
 open System
 open Pxl
 open Pxl.Draw
-open Pxl.Draw.Fsi
 
-let createCanvas () = CanvasProxy.create CanvasProxy.Channel.Tcp "localhost"
 
 
 // -------------------------------------------------------------
+
 
 
 let blinkingCursor =
@@ -20,4 +19,4 @@ let blinkingCursor =
         text.var4x5("_", 0, 0).color(color)
     }
 
-blinkingCursor |> Eval.start createCanvas
+blinkingCursor |> Simulator.start
