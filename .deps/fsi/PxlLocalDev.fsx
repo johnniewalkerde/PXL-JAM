@@ -7,4 +7,4 @@
 
 FsHttp.Fsi.disableDebugLogs()
 
-Pxl.Draw.Debug.logPerf <- false
+Pxl.Debug.logPerf <- false

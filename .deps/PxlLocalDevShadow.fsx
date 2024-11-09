@@ -11,4 +11,4 @@ module PxlLocalDev =
 let createCanvas () = Pxl.CanvasProxy.create Pxl.CanvasProxy.Channel.Tcp "localhost"
 
 module Simulator =
-    let start scene = Pxl.Draw.Fsi.Eval.start createCanvas scene
+    let start scene = Pxl.Ui.Fsi.Eval.start createCanvas scene

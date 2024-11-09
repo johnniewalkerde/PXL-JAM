@@ -3,7 +3,7 @@ open PxlLocalDevShadow
 
 open System
 open Pxl
-open Pxl.Draw
+open Pxl.Ui
 
 
 // -------------------------------------------------------------

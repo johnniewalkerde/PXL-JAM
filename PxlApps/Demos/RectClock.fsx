@@ -3,7 +3,7 @@ open PxlLocalDevShadow
 
 open System
 open Pxl
-open Pxl.Draw
+open Pxl.Ui
 
 
 
@@ -68,7 +68,7 @@ let rectClock(now: DateTime) =
 
         let pxl1d idx fillColor =
             let px, py = mapToPixel idx
-            pxl.xy(px, py).fill(fillColor).noAntiAlias()
+            pxl.xy(px, py).stroke(fillColor).noAntiAlias()
 
         for x in 0 ..  to96ths now.Second do
             pxl1d x Colors.white
