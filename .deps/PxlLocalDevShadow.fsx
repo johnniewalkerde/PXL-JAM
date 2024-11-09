@@ -12,3 +12,4 @@ let createCanvas () = Pxl.CanvasProxy.create Pxl.CanvasProxy.Channel.Tcp "localh
 
 module Simulator =
     let start scene = Pxl.Ui.Fsi.Eval.start createCanvas scene
+    let stop () = Pxl.Ui.Fsi.Eval.stop ()

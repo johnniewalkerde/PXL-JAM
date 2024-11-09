@@ -12,6 +12,13 @@ open Pxl.Ui
 
 
 (*
+
+    This is the successor of the `./PxlApps/Tutorial/clockWithAnimatedSeconds_v1.fsx` example.
+
+    -------------------------------------------------------------
+    
+    ...continued from the previous example:
+
     We can reach the same goal as in the previous example,
     by taking advantage of the Trigger module.
     The requirements remain the same, but the implementation and the
@@ -73,5 +80,5 @@ finalScene |> Simulator.start
 
 
 (*
-Eval.stop ()
+Simulator.stop ()
 *)

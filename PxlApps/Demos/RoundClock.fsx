@@ -57,5 +57,5 @@ let finalScene isSmooth =
 finalScene true |> Simulator.start
 
 (*
-Eval.stop ()
+Simulator.stop ()
 *)
