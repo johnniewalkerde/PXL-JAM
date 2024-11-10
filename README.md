@@ -16,7 +16,15 @@ Share this repository and help us make this a memorable event for the dotnet com
 
 ---
 
-# 🎄 **Welcome to the PXL Challenge!** 🎄
+# 🎄 **Welcome to the PXL Challenge** 🎄
+
+<div align="center">
+   <img src="pxl-mk1.jpg" alt="PXL MK1" width="600"/>
+</div>
+
+Eager to experience the vibrant colors and smooth animations of the PXL-MK1? Excited to start programming it?
+
+Here's your opportunity to dive in! Use our fun and easy-to-use programming environment to create pixel art and animations that will be displayed on the PXL-MK1. Plus, you can use the simulator to test your creations before deploying them to the device.
 
 ## Prerequisites
 
