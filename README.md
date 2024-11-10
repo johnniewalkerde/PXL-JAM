@@ -1,7 +1,7 @@
 <div align="center">
   <h1>🎁 <strong>Mark your calendars for December 1st!</strong> 🎁</h1>
 
-This repository is proudly part of the **2024 F# Advent Calendar**, hosted by Sergey Tihon. 
+This repository is proudly part of the **2024 F# Advent Calendar**, hosted by Sergey Tihon.
 
 We’re gearing up to reveal exciting news—and you’ll have a chance to win a **unique Christmas present** from us!
 
@@ -16,10 +16,9 @@ Share this repository and help us make this a memorable event for the dotnet com
 
 ---
 
-# 🎄 **Welcome to the PXL Challenge** 🎄
-
 <div align="center">
-   <img src="pxl-mk1.jpg" alt="PXL MK1" width="600"/>
+   <h1>🎄 **Welcome to the PXL Challenge** 🎄</h1>
+   <img src="pxl-mk1.jpg" alt="PXL MK1" style="width: 100%;" />
 </div>
 
 Eager to experience the vibrant colors and smooth animations of the PXL-MK1? Excited to start programming it?
