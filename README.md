@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🎁 <strong>Mark your calendars for December 1st!</strong> 🎁</h1>
+  <h1>🎁 <strong>Mark your calendars for December 1st</strong> 🎁</h1>
 
 This repository is proudly part of the **2024 F# Advent Calendar**, hosted by Sergey Tihon.
 
@@ -17,13 +17,15 @@ Share this repository and help us make this a memorable event for the dotnet com
 ---
 
 <div align="center">
-   <h1>🎄 **Welcome to the PXL Challenge** 🎄</h1>
+   <h1>🎄 Welcome to the PXL Challenge 🎄</h1>
    <img src="pxl-mk1.jpg" alt="PXL MK1" style="width: 100%;" />
 </div>
 
 Eager to experience the vibrant colors and smooth animations of the PXL-MK1? Excited to start programming it?
 
-Here's your opportunity to dive in! Use our fun and easy-to-use programming environment to create pixel art and animations that will be displayed on the PXL-MK1. Plus, you can use the simulator to test your creations before deploying them to the device.
+Here's your opportunity to dive in! Use our fun and easy-to-use programming environment to create pixel art and animations that will be displayed on the PXL-MK1.
+
+Until you have the opportunity to hold the real thing in your hands, you can start coding and testing your apps in the simulator!
 
 ## Prerequisites
 
@@ -38,13 +40,13 @@ Before you begin, make sure you have the following set up:
 - [**Visual Studio Code (VSCode)**](https://code.visualstudio.com/)
 - [**Ionide-fsharp Extension for VSCode**](https://marketplace.visualstudio.com/items?itemName=Ionide.Ionide-fsharp)
 
-**Fork the Repository**
+## Fork the Repository
 
 Best practice is to fork this repository to your GitHub account. This way, you can experiment with the code and save your changes, and maybe there will be some surprises along the way. 🎁
 
-**Prepare Your Sprites**
+## Prepare the Sprites
 
-- Check out the sprites 🖼️ in `./PxlApps/assets` (like `pizzaMampf.png`) and swap them with your own custom artwork to personalize your app.
+Check out the sprites 🖼️ in `./PxlApps/assets` (like `pizzaMampf.png`) and swap them with your own custom artwork to personalize your app.
 
 ---
 
