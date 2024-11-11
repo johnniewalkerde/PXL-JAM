@@ -3,14 +3,6 @@
   "options": {
     "cwd": "."
   },
-  "windows": {
-    "options": {
-      "shell": {
-        "executable": "C:\\Program Files\\Git\\bin\\bash.exe",
-        "args": ["-c"]
-      }
-    }
-  },
   "tasks": [
     {
       "label": "Start Simulator",
@@ -19,6 +11,10 @@
       "group": {
         "kind": "build",
         "isDefault": false
+      },
+      "windows": {
+        "command": "powershell.exe",
+        "args": ["-File", "./start-simulator.ps1"]
       }
     }
   ]
