@@ -13,8 +13,7 @@
         "isDefault": false
       },
       "windows": {
-        "command": "powershell.exe",
-        "args": ["-File", "./start-simulator.ps1"]
+        "command": "./start-simulator.ps1"
       }
     }
   ]
