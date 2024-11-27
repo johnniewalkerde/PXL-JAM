@@ -2,4 +2,5 @@
 - some nice particle FX
 - AI playing PONG
 - AI playing Snake (https://wiredsis.medium.com/making-a-snake-game-in-f-91006e589185)
-- 
+- Magma-Effekte
+- Particle Physics
