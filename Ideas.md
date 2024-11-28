@@ -4,3 +4,7 @@
 - AI playing Snake (https://wiredsis.medium.com/making-a-snake-game-in-f-91006e589185)
 - Magma-Effekte
 - Particle Physics
+- AI playing side-scroller game (with spaceship, etc.)
+- some shader FX, like explosions / asteroids / glow, etc.)
+- AI playing Asteroids
+- 
