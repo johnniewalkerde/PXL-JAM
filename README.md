@@ -18,6 +18,7 @@ Share this repository and help us make this a memorable event for the dotnet com
 
 <div align="center">
    <h1>🎄 Welcome to the PXL JAM 🎄</h1>
+   <p>Code Yourself Some Pixels</p>
    <img src="pxl-mk1.jpg" alt="PXL MK1" style="width: 100%;" />
 </div>
 
