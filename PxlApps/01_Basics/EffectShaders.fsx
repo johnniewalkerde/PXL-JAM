@@ -14,23 +14,24 @@ open Pxl.Ui
 // and update the repository. Thank you!
 let finalScene =
     scene {
+        shaderGenerative (fun p ->
+            if p.x % 2.0 = 0 
+            then Colors.red
+            else Colors.blue
+        )
+
         text.var4x5("abc").color(Colors.white)
 
-        let! pixels = pxls.get()
-        pixels.GetHashCode() |> printfn "pixels: %A"
-
-        // from white to dark blue
-        for i in 0..pixels.Length - 1 do
-            let color = pixels[i].brightness(0.9)
-            pixels[i] <- color
-        
-        pxls.set(pixels)
-        
-        text.var4x5("1").color(Colors.white)
+        shaderEffect (fun inp ->
+            if inp.pxlColor = Colors.red
+            then Colors.green
+            else inp.pxlColor
+        )
     }
 
 
 finalScene |> Simulator.start
+
 
 (*
 Simulator.stop ()
