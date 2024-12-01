@@ -17,7 +17,7 @@ You’re free to experiment and create whatever you like! Here are some ideas to
 - UI Widgets: Sliding scenes or innovative interfaces.
 - Particle Physics Simulations: Show that particle physics is exciting and fun!
 
-For more inspiration, check out the [raw list of ideas](ideas.md) in our repository.
+For more inspiration, check out the [raw list of ideas](Ideas.md) in our repository.
 
 **Q: Can I participate anonymously?**
 

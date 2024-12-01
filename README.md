@@ -72,6 +72,7 @@ To set up your first app, follow these steps:
 - Under the `./PxlApps/04_Submissions` folder, create a file with your GitHub account name and the name of your app
 
   Pattern: `{GHAccountName}_{UniqueAppName}.fsx`
+
   Example: `SchlenkR_MyFirstApp.fsx`
 
 You can just copy and rename the example file `./PxlApps/04_Submissions/SchlenkR_MyFirstApp.fsx` to get started.
@@ -79,6 +80,7 @@ You can just copy and rename the example file `./PxlApps/04_Submissions/SchlenkR
 - If you have any assets (images), put them in the folder `./PxlApps/assets/submissions`- and name them:
   
   Pattern: `{GHAccountName}_{UniqueAppName}...`
+  
   Example: `SchlenkR_MyImage.png`
 
 ### 🚀 Start the Simulator
