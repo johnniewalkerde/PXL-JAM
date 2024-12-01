@@ -13,7 +13,7 @@ The PXL PAM 2024 is a fun and engaging way!
 
 <div align="center">
    <h2>🎁 <strong>Win a PXL-Clock - Watch How on YouTube</strong> 🎁</h2>
-   <a href="https://www.youtube.com/watch?v=ZAw_u59ueyA"><img src="https://img.youtube.com/vi/ZAw_u59ueyA/0.jpg" alt="Watch the video" style="width: 70%;"></a>
+   <a href="https://youtu.be/q5-QTpEMGdU"><img src="https://img.youtube.com/vi/q5-QTpEMGdU/0.jpg" alt="Watch the PXL-JAM video" style="width: 80%;"></a>
    <p>YouTube</p>
 </div>
 
