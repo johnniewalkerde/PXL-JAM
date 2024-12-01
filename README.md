@@ -4,7 +4,7 @@
 
 🙏 This repository is proudly part of the [F# Advent Calendar 2024](https://sergeytihon.com/fsadvent/), hosted by Sergey Tihon - 🙏
 
-The PXL PAM 2024 is a fun and engaging way!
+The PXL PAM 2024 is a fun and engaging way to come together and have a joyful time!
 
 - Learn programming - it's perfect for beginners and experienced developers alike.
 - Team up and collaborate with other developers or take challenge for yourself.
