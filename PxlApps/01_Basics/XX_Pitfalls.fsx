@@ -12,9 +12,11 @@ open Pxl.Ui
 
 (*
 
-- Einzelbilder
-- Sprites
-- Per-Pixel-Manipulation / Generation
-- Layers (rotation, etc.)
+   Pitfalls
+      if / else preserve / else discard
+      do if
+         see: 03_Conditionals.fsx
+   Examples
+      Trigger.valueChanged -> in die Trigger-Sektion machen
 
 *)
