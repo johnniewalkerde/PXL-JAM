@@ -2,20 +2,19 @@
    <h1>🎄 Welcome to the PXL-JAM 2024🎄</h1>
 </div>
 
-🙏 This repository is proudly part of the **2024 F# Advent Calendar**, hosted by Sergey Tihon - 🙏
+🙏 This repository is proudly part of the [F# Advent Calendar 2024](https://sergeytihon.com/fsadvent/), hosted by Sergey Tihon - 🙏
 
-The PXL PAM 2024 is a fun and engaging way
+The PXL PAM 2024 is a fun and engaging way!
 
-- to learn programming - it's perfect for beginners and experienced developers alike,
-- team up and collaborate with other developers or take challenge for yourself
-- and share your creations
-- and... finally: You can **win a PXL-Clock Mk1** 🎉
-
-🎁 Yes, you read that right! We're giving away a PXL-Clock Mk1 to some of the creators we liked most. 🎁
+- Learn programming - it's perfect for beginners and experienced developers alike.
+- Team up and collaborate with other developers or take challenge for yourself.
+- Share your creations
+- And finally: You can **win a PXL-Clock Mk1** 🎉
 
 <div align="center">
    <h2>🎁 <strong>Win a PXL-Clock - Watch How on YouTube</strong> 🎁</h2>
    <a href="https://www.youtube.com/watch?v=ZAw_u59ueyA"><img src="https://img.youtube.com/vi/ZAw_u59ueyA/0.jpg" alt="Watch the video" style="width: 70%;"></a>
+   <p>YouTube</p>
 </div>
 
 In the meantime, get started with PXL apps and unleash your creativity. Dive into the code, explore, and have fun building something awesome.
@@ -141,4 +140,4 @@ We can’t wait to see your amazing creations! This is a fantastic opportunity t
 
 🌟 Thank You for Being a Part of This Journey!
 
-📣 If you like this Jam - please share it with others - thank you :)
+📣 If you like this PXL-JAM - please share it with others - thank you :)
