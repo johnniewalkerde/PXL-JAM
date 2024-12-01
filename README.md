@@ -17,7 +17,13 @@ The PXL PAM 2024 is a fun and engaging way!
    <p>YouTube</p>
 </div>
 
-In the meantime, get started with PXL apps and unleash your creativity. Dive into the code, explore, and have fun building something awesome.
+## tl;dr - How does it work?
+
+- Fork the Repo
+- Program your own PXL-Apps
+- Use the simulator to test your apps
+- Submit your app via a pull request
+- The creators of the 3 nicest app (by our jury preference) can win a PXL-Clock Mk1!
 
 📣 **Spread the holiday cheer!**
 
