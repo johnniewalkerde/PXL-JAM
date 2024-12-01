@@ -25,3 +25,8 @@ scene {
 |> Simulator.start
 
 
+
+
+(*
+Simulator.stop ()
+*)

@@ -98,7 +98,7 @@ As an alternative for the VSCode build task, just run `./start-simulator.sh` (Ma
 ### Run an App
 
 - Ensure the simulator is running (see above).
-- Open an app file (e.g. `./PxlApps/RoundClock.fsx`) in VSCode.
+- Open your app file in the editor (works as well with all samples and tutorials here in this repo).
 - Select the entire content of the file and run it by pressing `Alt+Enter` (Windows) or `Cmd+Enter` (Mac).
 
 You can modify the code, open new files, and re-run apps as often as you like. Simply re-evaluate the **entire file** (that's the mose easy way.)
@@ -119,7 +119,7 @@ Explore the demo apps and tutorials in the `./PxlApps` directory.
 
 ### Programming Pitfalls
 
-Have a look at the [./PxlApps/01_Basics/XX_Pitfalls.fsx] file to see some common pitfalls and how to avoid or fix them.
+Have a look at the [./PxlApps/01_Basics/XX_Pitfalls.fsx](PxlApps/01_Basics/XX_Pitfalls.fsx) file to see some common pitfalls and how to avoid or fix them.
 
 
 ## Additional Information
@@ -127,6 +127,10 @@ Have a look at the [./PxlApps/01_Basics/XX_Pitfalls.fsx] file to see some common
 **Resources**
 
 - We offer videos and tutorials to help you set up everything.
+- For learning F#
+   - we recommend the [F# for Fun and Profit](https://fsharpforfunandprofit.com/) website.
+   - A book by Ian Russel, available as eBook also: https://leanpub.com/essential-fsharp
+   - "F# in Action" by Isaac Abraham: https://www.manning.com/books/f-sharp-in-action
 - Getting the simulator up and running is straightforward.
 - Examples are available to assist you in learning.
 

@@ -28,47 +28,6 @@ scene {
 
 
 
-// TODO:
-// Pitfall - sometimes a "do if" is required (not only an "if") to make the code work.
-// In that case, also an "else preserve" or "else discard" must NOT be used.
-
-
-let doIfPitfall =
-    scene {
-        let! ctx = getCtx ()
-
-        let! currSceneNo = useState { 0 }
-        let! timeLeft = Anim.linear(10, 0, 1, repeat = Repeat.Loop, autoStart = true)
-        let! swipeOffsetAnim = Anim.easeInOutCubic(
-            0.7,
-            0,
-            0,
-            repeat = Repeat.StopAtEnd,
-            autoStart = false)
-
-        scene {
-            Layer.offset(swipeOffsetAnim.value, 0)
-            scene1
-        }
-
-        scene {
-            Layer.offset(swipeOffsetAnim.value + float ctx.width, 0)
-            scene2
-        }
-
-        do if timeLeft.isAtEndTrigger then
-            if currSceneNo.value = 0 then
-                swipeOffsetAnim.startValue <- 0
-                swipeOffsetAnim.endValue <- -24
-            else
-                swipeOffsetAnim.startValue <- -24
-                swipeOffsetAnim.endValue <- 0
-
-            swipeOffsetAnim.restart()
-
-            currSceneNo.value <- currSceneNo.value + 1
-            if currSceneNo.value = 2 then
-                currSceneNo.value <- 0
-    }
-
-
+(*
+Simulator.stop ()
+*)

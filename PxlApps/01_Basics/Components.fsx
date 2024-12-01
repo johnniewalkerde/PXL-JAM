@@ -20,11 +20,17 @@ let counter(x, y, color) =
     }
 
 // and actually use it over a nice background:
-scene {
-    bg(Colors.darkBlue)
-    counter(0, 0, Colors.white)
-    counter(0, 8, Colors.red)
-    counter(0, 16, Colors.green)
-}
-|> Simulator.start
+let finalScene = 
+    scene {
+        bg(Colors.darkBlue)
+        counter(0, 0, Colors.white)
+        counter(0, 8, Colors.red)
+        counter(0, 16, Colors.green)
+    }
 
+finalScene |> Simulator.start
+
+
+(*
+Simulator.stop ()
+*)
