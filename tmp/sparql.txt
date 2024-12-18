@@ -1,0 +1,17 @@
+SELECT ?country ?countryLabel ?id
+  (MIN(DISTINCT ?nativeLabels) AS ?nativeLabel)
+  (MIN(DISTINCT ?flags) AS ?flag)
+  (MIN(DISTINCT ?capitals) AS ?capital)
+WHERE {
+  {
+    #?country wdt:P31 wd:Q3624078. # Instance of country
+    ?country wdt:P31 wd:Q6256. # Instance of country
+    ?country wdt:P41 ?flags. # National flag property
+    ?country wdt:P298 ?id.
+    OPTIONAL { ?country wdt:P1705 ?nativeLabels. }
+    OPTIONAL { ?country wdt:P36 ?capitals. }
+  }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+GROUP BY ?country ?countryLabel ?id
+ORDER BY ?countryLabel
